@@ -1,0 +1,63 @@
+/*@@font-face {
+  font-family: myFont;
+  src: url();
+}*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsla(240, 100%, 0%, 1);
+}
+
+#blog {
+  background-color: hsla(240, 100%, 3%, 0.97);
+  position: absolute;
+  top: 70px;
+  left: 110px;
+  width: 550px;
+  height: 500px;
+  text-decoration: none;
+  color: white;
+}
+#blog:hover {
+
+  background-color: black;
+}
+
+#improvisation {
+  background-image: url("images/impro.jpg");
+  background-origin: padding-box;;
+  position: absolute;;
+  top: 70px;
+  left: 710px;
+  width: 550px;
+  height: 500px;
+  text-decoration: none;
+  color: white;
+}
+
+
+#improvisation:hover {
+  background-image: url("images/improHover.jpg");
+}
+
+#blogHeader {
+  background-color: inherit;
+  position: relative;
+  font-family: fantasy;
+  font-size: 289px;
+  color: hsla(73, 0%, 36%, 1);
+  top: 55px;
+  left: 0px;
+}
+
+#improHeader {
+  background-color: #d57034;
+  position: relative;
+  font-family: fantasy;
+  font-size: 0px;
+  color: hsla(73, 0%, 36%, 1);
+  top: 55px;
+  left: 0px;
+  display: inline;
+}
